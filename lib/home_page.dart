@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
         ),
         backgroundColor: valorantBlack,
         body: SafeArea(
-          child: Padding(
+          child: SingleChildScrollView(
             padding: const EdgeInsets.all(14),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
